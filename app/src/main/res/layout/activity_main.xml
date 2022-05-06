@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_person"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_btn_background"
+        android:text="Show Person List"
+        android:textAllCaps="false"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/btn_company"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_btn_background"
+        android:text="Show Company List"
+        android:textAllCaps="false"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/btn_course"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_btn_background"
+        android:text="Show Course List"
+        android:textAllCaps="false"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/btn_university"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_btn_background"
+        android:text="Show University List"
+        android:textAllCaps="false"
+        android:layout_margin="30dp"/>
+
+
+</LinearLayout>
