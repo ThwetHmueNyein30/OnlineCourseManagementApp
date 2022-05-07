@@ -14,11 +14,22 @@
         android:theme="@style/Theme.OnlineCourseManagementSystem"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".CourseListActivity"
+            android:name=".ui.activity.CourseDetailActivity"
             android:exported="false" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activity.CourseListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.UniversityListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.PersonListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.CompanyListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
